@@ -8,4 +8,4 @@ jobs:
     name: Prints Hello World
     steps:
       - name: Do the actual printing
-        runs: echo "Hello World!"
+        run: echo "Hello World!"
