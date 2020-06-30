@@ -4,7 +4,7 @@ on:
     types: [ opened, ready_for_review ]
 jobs:
   hello-test:
-    runs-on: ubtuntu-latest
+    runs-on: ubuntu-latest
     name: Prints Hello World
     steps:
       - name: Do the actual printing
